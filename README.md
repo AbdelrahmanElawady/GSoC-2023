@@ -28,6 +28,7 @@ From a high level perspective the project is mainly separated into two parts:
   - Configure Varnish to operate in a multi-layer cache group (https://github.com/apache/trafficcontrol/pull/7669).
   - Configure access control over Varnish cache servers to control which IPs are allowed to do certain request methods like PURGE, PUSH and DELETE (https://github.com/apache/trafficcontrol/pull/7700).
   - Add HTTPs support to Varnish cache servers by using Hitch (https://github.com/apache/trafficcontrol/pull/7725).
+  - Configure Varnish to skip caching some Delivery Services based on their type (https://github.com/apache/trafficcontrol/pull/7771).
 - Added `vstats` to report Varnish cache load and added the new format to Traffic Monitor (https://github.com/apache/trafficcontrol/pull/7746).
 
 ## Future Work
