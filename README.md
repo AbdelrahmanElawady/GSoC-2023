@@ -31,6 +31,8 @@ From a high level perspective the project is mainly separated into two parts:
   - Configure Varnish to skip caching some Delivery Services based on their type (https://github.com/apache/trafficcontrol/pull/7771).
 - Added `vstats` to report Varnish cache load and added the new format to Traffic Monitor (https://github.com/apache/trafficcontrol/pull/7746).
 
+For more details on the progress of the project check out [Varnish Support](https://github.com/apache/trafficcontrol/projects/21) GitHub Project.
+
 ## Future Work
 
 - Continue working on unfinished configurations (Storage and Plugins).
